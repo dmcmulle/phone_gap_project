@@ -10,6 +10,8 @@ var qAndAs = new Array(	"Flash cards are simply defined in 'script.js' in the ro
 						"You can edit these to say anything you want!",
 						"They are stored in a JavaScript array variable, where the first element is the question...",
 						"..and the second element is the answer!  This continues until you no longer need any more flash cards.",
+						"Since these arrays are interpreted as HTML in the browser, you can add any elements that fit this page.",
+						"For example, you can add images under text, like so... (Next Card)",
 						"What are the definitions of Trigonometric Functions of a Right Triangle?",
 						"<img class=\"flashImage\" src=\"http://i.imgur.com/vR06P8j.png\"",
 						"What are the Reciprocal Identities?",
