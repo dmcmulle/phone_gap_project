@@ -3,9 +3,14 @@
 //							"Answer to Question 1",
 //							"Question 2",
 //							"Answer to Question 2" );
+//							etc...
 						
 						
-var qAndAs = new Array(	"What are the definitions of Trigonometric Functions of a Right Triangle?",
+var qAndAs = new Array(	"Flash cards are simply defined in 'script.js' in the root directory.",
+						"You can edit these to say anything you want!",
+						"They are stored in a JavaScript array variable, where the first element is the question...",
+						"..and the second element is the answer!  This continues until you no longer need any more flash cards.",
+						"What are the definitions of Trigonometric Functions of a Right Triangle?",
 						"<img class=\"flashImage\" src=\"http://i.imgur.com/vR06P8j.png\"",
 						"What are the Reciprocal Identities?",
 						"<img class=\"flashImage\" src=\"http://i.imgur.com/5I0DGqL.png\"",
