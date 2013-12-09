@@ -10,28 +10,54 @@
   <SCRIPT SRC="script.js"></SCRIPT>
 </head>
 
-<body>
+<body onload="init()">
 	<h1>
 		FLASH CARDS ONLINE
 	</h2>
 	
 	<div class="box">
-		<br/><br/>
-		<div id="center">	
-			<div id="flash_card">
-				<br/><br/><br/><br/>
-					Press "NEXT" to begin!
-				<br/><br/>
+		<div id="flash_cards" style="display:none;">
+			<br/><br/>
+			<div id="center">
+				</br><b><span id="flash_cart_html_title"></b></span></br></br>
+					<div id="flash_card">
+						<br/><br/><br/><br/>
+							Press "NEXT" to begin!
+						<br/><br/>
+					</div>
 			</div>
+			
+			<br/><br/>
+			
+			<div id="center">
+				<input type="button" onClick="previousCardText()" value="PREVIOUS"></input>
+				<input type="button" onClick="nextCardText()" value="NEXT"></input>
+				</br></br>
+				<input type="button" onClick="goBack()" value="GO BACK"></input>
+				</br></br>
+				<input type="button" onClick="location.href='https://github.com/dmcmulle/phone_gap_project/'" value="Download and Customize Your Own!"></input>		
+			</div>
+			<br/><br/>
 		</div>
-		
-		<br/><br/>
-		
-		<div id="center">
-			<input type="button" onClick="previousCardText()" value="PREVIOUS"></input>
-			<input type="button" onClick="nextCardText()" value="NEXT"></input>
-		</div>
-		<br/><br/>
+	</div>
+	
+	<div class="box">
+		<div id="selector">
+			<p>
+				</br></br>
+				<div class="box">
+					<div id="center">
+						</br>
+						<b>Current Sets:  <span id="current_sets_available"></span></b>
+						<span id="set_titles"></span>
+						</br></br></br></br>
+						<input type="button" onClick="location.href='https://github.com/dmcmulle/phone_gap_project/'" value="Download and Customize Your Own!"></input>		
+						</br></br>						
+					</div>
+				</div>
+				</br></br>
+			</p>
+		<div id="selector">
 	</div>
 	
 </body>
